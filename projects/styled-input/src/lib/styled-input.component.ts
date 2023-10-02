@@ -1,15 +1,15 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'lib-styled-input',
   template: `
     <p>
-      styled-input works!
+        {{ title }}
     </p>
   `,
   styles: [
   ]
 })
 export class StyledInputComponent {
-
+  @Input() title = 'title'
 }
