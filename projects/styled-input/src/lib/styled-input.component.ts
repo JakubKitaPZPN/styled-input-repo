@@ -3,9 +3,9 @@ import {Component, Input} from '@angular/core';
 @Component({
   selector: 'lib-styled-input',
   template: `
-    <p>
+    <h2>
         {{ title }}
-    </p>
+    </h2>
   `,
   styles: [
   ]
